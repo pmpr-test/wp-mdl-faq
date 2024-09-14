@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr FAQ\n"
+"POT-Creation-Date: 2022-12-10 02:14+0330\n"
+"PO-Revision-Date: 2022-12-10 02:32+0330\n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/FAQ/FAQ.php:20
+msgid "FAQ"
+msgstr "سوالات متداول"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:25
+#: src/Pmpr/Module/FAQ/Model/Question.php:37
+msgid "Question"
+msgstr "سوال"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:26
+msgid "Questions"
+msgstr "سوالات"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:40
+msgid "Pending"
+msgstr "در انتظار"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:41
+msgid "Publish"
+msgstr "منتشر شده"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:42
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:45
+msgid "Priority"
+msgstr "الویت"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:49
+msgid "Creator"
+msgstr "ایجاد کننده"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:52
+msgid "Response"
+msgstr "پاسخ"
+
+#: src/Pmpr/Module/FAQ/Page.php:20
+msgid "Frequently Asked Questions"
+msgstr "سوالات متداول"
+
+#: src/Pmpr/Module/FAQ/Setting.php:29
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Module/FAQ/Setting.php:30
+msgid "FAQ Setting"
+msgstr "تنظیمات سوالات متداول"
+
+#: src/Pmpr/Module/FAQ/Setting.php:36
+msgid "General"
+msgstr "عمومی"
+

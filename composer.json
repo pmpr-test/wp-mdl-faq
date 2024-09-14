@@ -1,0 +1,32 @@
+{
+  "name": "pmpr-mdl/wp-mdl-faq",
+  "type": "project",
+  "license": "proprietary",
+  "description": "FAQ Module for Wordpress",
+  "keywords": [
+    "wordpress",
+    "package",
+    "module",
+    "faq"
+  ],
+  "require": {
+    "php": ">=8.2",
+    "pmpr-cmn/wp-cmn-foundation": "~1.4"
+  },
+  "prod-require": {
+    "php": "8.2",
+    "wordpress": "6.0",
+    "wp-cmn-foundation": "latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Module\\FAQ\\": "src/Pmpr/Module/FAQ"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "tag": "1.0.23",
+  "timestamp": "1726343068"
+}
