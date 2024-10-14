@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr FAQ\n"
-"POT-Creation-Date: 2022-12-10 02:14+0330\n"
-"PO-Revision-Date: 2022-12-10 02:32+0330\n"
+"POT-Creation-Date: 2024-10-15 01:34+0330\n"
+"PO-Revision-Date: 2024-10-15 01:35+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
@@ -22,56 +22,87 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
-#: src/Pmpr/Module/FAQ/FAQ.php:20
+#: src/Pmpr/Module/FAQ/FAQ.php:19
 msgid "FAQ"
 msgstr "سوالات متداول"
 
-#: src/Pmpr/Module/FAQ/Model/Question.php:25
-#: src/Pmpr/Module/FAQ/Model/Question.php:37
-msgid "Question"
-msgstr "سوال"
+#: src/Pmpr/Module/FAQ/Model/Category.php:19
+msgid "Categories"
+msgstr "دسته‌بندی‌ها"
 
-#: src/Pmpr/Module/FAQ/Model/Question.php:26
-msgid "Questions"
-msgstr "سوالات"
+#: src/Pmpr/Module/FAQ/Model/Category.php:20
+#: src/Pmpr/Module/FAQ/Model/Category.php:50
+msgid "Category"
+msgstr "دسته‌بندی"
 
-#: src/Pmpr/Module/FAQ/Model/Question.php:40
-msgid "Pending"
-msgstr "در انتظار"
+#: src/Pmpr/Module/FAQ/Model/Category.php:41
+msgid "Name"
+msgstr "نام"
 
-#: src/Pmpr/Module/FAQ/Model/Question.php:41
-msgid "Publish"
-msgstr "منتشر شده"
-
-#: src/Pmpr/Module/FAQ/Model/Question.php:42
-msgid "Status"
-msgstr "وضعیت"
-
-#: src/Pmpr/Module/FAQ/Model/Question.php:45
+#: src/Pmpr/Module/FAQ/Model/Category.php:45
+#: src/Pmpr/Module/FAQ/Model/Question.php:52
 msgid "Priority"
 msgstr "الویت"
 
-#: src/Pmpr/Module/FAQ/Model/Question.php:49
+#: src/Pmpr/Module/FAQ/Model/Category.php:55
+#: src/Pmpr/Module/FAQ/Model/Question.php:77
+msgid "Created At"
+msgstr "تاریخ ایجاد"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:19
+msgid "Questions"
+msgstr "سوالات"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:20
+#: src/Pmpr/Module/FAQ/Model/Question.php:41
+msgid "Question"
+msgstr "سوال"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:45
+msgid "Pending"
+msgstr "در انتظار"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:46
+msgid "Publish"
+msgstr "منتشر شده"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:47
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/Pmpr/Module/FAQ/Model/Question.php:58
 msgid "Creator"
 msgstr "ایجاد کننده"
 
-#: src/Pmpr/Module/FAQ/Model/Question.php:52
+#: src/Pmpr/Module/FAQ/Model/Question.php:72
 msgid "Response"
 msgstr "پاسخ"
 
-#: src/Pmpr/Module/FAQ/Page.php:20
+#: src/Pmpr/Module/FAQ/Page.php:19
 msgid "Frequently Asked Questions"
 msgstr "سوالات متداول"
 
-#: src/Pmpr/Module/FAQ/Setting.php:29
-msgid "Setting"
-msgstr "تنظیمات"
-
-#: src/Pmpr/Module/FAQ/Setting.php:30
+#: src/Pmpr/Module/FAQ/Setting.php:20
 msgid "FAQ Setting"
 msgstr "تنظیمات سوالات متداول"
 
-#: src/Pmpr/Module/FAQ/Setting.php:36
+#: src/Pmpr/Module/FAQ/Setting.php:21
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Module/FAQ/Setting.php:33
 msgid "General"
 msgstr "عمومی"
+
+#: src/Pmpr/Module/FAQ/Setting.php:34
+msgid "General Configuration"
+msgstr "پیکربندی عمومی"
+
+#: src/Pmpr/Module/FAQ/Setting.php:37
+msgid "FAQ Page"
+msgstr "صفحه سوالات متداول"
+
+#: src/Pmpr/Module/FAQ/Setting.php:41
+msgid "Page"
+msgstr "صفحه"
 
