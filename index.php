@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             67052e0cd8e77             |
+    |             670d001bd904d             |
     |_______________________________________|
 */
  use Pmpr\Module\FAQ\FAQ; FAQ::symcgieuakksimmu();
