@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             67c83a42df5c6             |
+    |             6800fbb675745             |
     |_______________________________________|
 */
  namespace Pmpr\Module\FAQ\Model; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Interfaces\IconInterface; use Pmpr\Common\Foundation\ORM\Model; class Category extends Model { const qweekaqwsewcacci = 'question_id'; public function register() { $this->muuwuqssqkaieqge(__('Categories', PR__MDL__FAQ))->guiaswksukmgageq(__('Category', PR__MDL__FAQ))->saemoowcasogykak(IconInterface::uaimoioocayauuca)->uaywwyimkgwyqwya([Constants::yiuwgggacagyeqmo => 12])->eesuqwkusmukgwma(); $this->ecmiqywsauuoccwo(Constants::ukwaycqmyyuekwqg)->ecmiqywsauuoccwo(Constants::ieioeisgwcgysukw)->ecmiqywsauuoccwo(Constants::awysmmukegasimmq)->ecmiqywsauuoccwo(Constants::weiosaewqequuyuq); } public function uwmqacgewuauagai() { $eqwoegegiamegqsm = $this->caokeucsksukesyo()->skckwsgymkimyuwo(); $this->cquokmemekqqywgi($eqwoegegiamegqsm->gysoeyaguiyewoes(Constants::NAME)->gswweykyogmsyawy(__('Name', PR__MDL__FAQ)))->cquokmemekqqywgi($eqwoegegiamegqsm->qoemykoeuecmsmwe(Constants::iuqumwggccmcuyem)->gswweykyogmsyawy(__('Priority', PR__MDL__FAQ))->eyygsasuqmommkua(0))->cquokmemekqqywgi($eqwoegegiamegqsm->eoaomaokwkwqyqiq(self::qweekaqwsewcacci)->gswweykyogmsyawy(__('Category', PR__MDL__FAQ))->ckgquisaimmgwuyu())->cquokmemekqqywgi($eqwoegegiamegqsm->qwwuoqeeiyuoyogs(Constants::CREATED_AT)->gswweykyogmsyawy(__('Created At', PR__MDL__FAQ))); parent::uwmqacgewuauagai(); } }
