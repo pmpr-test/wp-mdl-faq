@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68e585ee6399d             |
+    |             68e598d031a86             |
     |_______________________________________|
 */
  namespace Pmpr\Module\FAQ; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Frontend\Page as BaseClass; use Pmpr\Module\FAQ\Model\Question; class Page extends BaseClass { public function qiccuiwooiquycsg() { $this->wegcaymyqqoyewmw('faq')->wmsaakuicamguoam($this->weysguygiseoukqw(Setting::mgimcqoeikiyqquu))->gswweykyogmsyawy(__('Frequently Asked Questions', PR__MDL__FAQ)); parent::qiccuiwooiquycsg(); } public function rsysgcucogueguuk() : array { $ouuscogyemygyuyi = Question::symcgieuakksimmu(); $eqwoegegiamegqsm = $this->caokeucsksukesyo()->skckwsgymkimyuwo(); $cuueaykuqqkueici = $ouuscogyemygyuyi->iekyeyicoyyawomk()->cieaqygkucwoqwke([$eqwoegegiamegqsm->megqywqeuquawkim(Constants::ciywsqoeiymemsys, Constants::wmmucsiyiyusmssm), $eqwoegegiamegqsm->owogyemaccuymycq(Constants::iuqumwggccmcuyem)->mcgisgoaksmyemyq()]); $qookweymeqawmcwo = []; if ($cuueaykuqqkueici) { $suuagcecoyuweoqk = ''; foreach ($cuueaykuqqkueici as $cgiaqqwoogcwuuwq) { $suuagcecoyuweoqk .= $this->iuygowkemiiwqmiw('question', [Constants::kuygeqomywoykkai => $cgiaqqwoogcwuuwq]); } $qookweymeqawmcwo = ['questions' => $cuueaykuqqkueici, Constants::ugmwekegkosuuwii => $suuagcecoyuweoqk]; } return $qookweymeqawmcwo; } }
